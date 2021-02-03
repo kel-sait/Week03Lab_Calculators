@@ -21,42 +21,20 @@
             <br>
              <label>Second: </label>
              <input type="text" name="num_2" value=""> 
-               <br>
-               
-               
+               <br>            
                <input type="submit"   name="operator_" value="+">
                <input type="submit"   name="operator_"  value="-">
                <input type="submit"   name="operator_"  value="*"> 
-               <input type="submit"   name="operator_" value="%">   
-
-             
+               <input type="submit"   name="operator_" value="%">                     
                <br>
                
-               Result:
-               <span id='result'></span>
-                
-
                <p>${message}${""}</p>
   
-           <p>${message2}${Num1+Num2}</p>      
-  
-            <p>${message3}${Num1-Num2}</p>   
-                   
-            <p>${message4}${Num1*Num2}</p>   
-        
-            <p> ${message5}${Num1%Num2}</p>   
-             
-         
-                     
-            
-
-            
-    
-                     
+                <p>${message2}${result}</p>
+                                          
             <a href="agecalculator" target="_blank">
                 <br>Age Calculator</a>
-                  
- 
+
               </form>    
     </body>
 </html>

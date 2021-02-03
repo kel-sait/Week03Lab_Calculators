@@ -25,7 +25,6 @@ public class AgeCalculatorServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         
-         
         
         String age = request.getParameter("age_user");        
         request.setAttribute("Age", age);
@@ -37,9 +36,7 @@ public class AgeCalculatorServlet extends HttpServlet {
         request.setAttribute("message", "You must give your current age.");
         }
         
-        
-       
-        else {
+       else {
                  request.setAttribute("message2", "Your next age birthday will be ");
                 }
         
